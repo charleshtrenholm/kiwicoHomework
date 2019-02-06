@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--TODO:
+    1. Improve hovering over buttons to make them correct style
+    2. create svg path for kiwi-fact section and rotate text around axis, add link
+    3. Improve responsiveness
+    4. Make the scroll overflow more obvious for mobile users
+    5. More accurately match colors with mockup
+    -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, maximum-scale=1">
+        <meta name="description" content="We provide fun and entertaining projects for children and adults alike. Our goal is to make building and craftsmanship fun, while teaching a wide array of high level topics to young and curious minds.">
+        <meta name="keywords" content="education, learning, tools, DIY, crafts, arts, art, craftsmanship, kids, parents, fun">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="kc.css">
+        <script type="text/javascript" src="kc.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="banner" role="banner">
+                <h1>
+                    <span class="bold">Why</span> KiwiCo?
+                </h1>
+            </nav>
+        </header>
+        <hr style="width: 400px; text-align: center;" />
+        <br />
+        <div class="button-container">
+            <button class="button rotate-right" role="dialog" id="show-convenient">
+                <img src="./img/convenient-1.png" alt="./img/convenient-2.png">
+                Convenient</button>
+            <button class="button rotate-left" role="dialog" id="show-sparks-creativity">
+                <img src="./img/creativity-1.png" alt="./img/creativity-2.png">
+                Sparks Creativity</button>
+            <button class="button rotate-right" role="dialog" id="show-educational">
+                <img src="./img/educational-1.png" alt="./img/educational-2.png">
+                Educational</button>
+            <button class="button rotate-left" role="dialog" id="show-family-time">
+                <img src="./img/family-1.png" alt="./img/family-2.png">
+                Family Time</button>
+            <button class="button rotate-right" role="dialog" id="show-fun">
+                <img src="./img/fun-1.png" alt="./img/fun-2.png">
+                Fun</button>
+            <button class="button rotate-left" role="dialog" id="show-alt-to-screentime">
+                <img src="./img/screentime-1.png" alt="./img/screentime-2.png">
+                Alternative to Screen Time</button>
+        </div>
+        <div class="text-description-container">
+            <div class="speech-bubble-arrow"></div>
+            <section class="text-description show-convenient">
+                <img src="http://icdn.kiwicrate.com/site/home/why-kiwico-convenient.png" id="img-convenient" alt="KiwiCo Craft Kit" title="How KiwiCo can be convenient for you" />
+                <blockquote>
+                    <q>I enjoy crafting with my daughter, but don't have the time to research the activities and buy all the supplies. I like that everything comes to my door and we can start an activity right away.</q><br /><br />
+                    <footer>
+                        --Jane X, Koala Subscriber since 2016
+                    </footer>
+                </blockquote>
+            </section>
+            <section class="text-description show-sparks-creativity">
+                <blockquote>
+                    <q>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet ligula cursus nulla
+                        pellentesque rutrum. Aliquam mattis fermentum quam, vel auctor metus pulvinar et.
+                    </q>
+                </blockquote>
+            </section>
+            <section class="text-description show-educational">
+                <img src="http://icdn.kiwicrate.com/site/home/why-kiwico-educational.jpg" id="img-educational" alt="KiwiCo Electricity Kit" title="How KiwiCo is educational" />
+                <!-- <section class="kiwi-fact" role="link">
+                    <h2>KIWI FACT</h2>
+                    <p>In order to send <strong>only the best projects</strong>, hundreds get filtered out. So how do we pick from so many ideas? See our <a href="https://kiwico.com/about-us">design Principles</a></p>
+                </section> -->
+                <blockquote>
+                    <q>My daughter is a <strong>sponge for STEM projects​</strong> and this is the perfect solution to constantly
+                        searching for new things to keep her engaged.</q>
+                </blockquote>
+            </section>
+            <section class="text-description show-family-time">
+                <blockquote>
+                    <q>
+                        <strong>Mauris sodales ex vel ornare fermentum.</strong> Nulla luctus erat magna, eget efficitur mauris
+                        iaculis sed. Donec suscipit condimentum turpis, eget consectetur ipsum congue a. Suspendisse
+                        faucibus tincidunt nisl at porta. Aenean tempus <strong>rutrum ligula eu scelerisque</strong>.​ Cras elementum
+                        nisi vel felis lacinia, et volutpat leo scelerisque.
+                    </q>
+                </blockquote>
+            </section>
+            <section class="text-description show-fun">
+                <blockquote>
+                    <q>
+                        Maecenas aliquam pellentesque velit et egestas. Aliquam ac tortor et nibh pretium pharetra!
+                    </q>
+                </blockquote>
+            </section>
+            <section class="text-description show-alt-to-screentime">
+                <blockquote>
+                    <q>
+                        Nam sodales nunc non gravida ornare. Sed in tincidunt urna. Nam fringilla, purus non
+                        commodo pretium, ex neque interdum lectus, ac egestas magna nisl sed arcu. Morbi elit enim,
+                        accumsan sed nunc non.
+                    </q><br /><br />
+                    <footer>
+                        --Mattis mollis nisl
+                    </footer>
+                </blockquote>
+            </section>
+        </div>
+    </body>
+</html>
